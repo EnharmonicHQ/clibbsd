@@ -1,5 +1,8 @@
 module ClibBSD [system] {
+    header "/usr/include/unistd.h"
+    header "/usr/include/endian.h"
     header "/usr/include/bsd/bsd.h"
     link "bsd"
     export *
 }
+
